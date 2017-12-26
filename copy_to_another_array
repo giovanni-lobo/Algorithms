@@ -1,0 +1,11 @@
+// Algorithm to copy to another array
+
+double[] a = new double[];
+
+int N = a.length;
+
+double[] b = new double[N];
+
+for (int = i; i < N; i++){
+    b[i] = a[i];
+}
