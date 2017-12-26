@@ -1,0 +1,13 @@
+// Algorithm to find the maximum of the one-dimension array values
+
+double a[] = new double[];
+
+double max = a[0];
+
+for (int i = 1;  i < a.length; i++){
+    if(a[i] > max){
+        max = a[i];
+    }
+}
+
+
